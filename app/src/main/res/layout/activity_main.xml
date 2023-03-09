@@ -20,6 +20,7 @@
         app:layout_constraintTop_toTopOf="parent"/>
     
     <androidx.cardview.widget.CardView
+        android:id="@+id/card_view1"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
@@ -49,7 +50,8 @@
                 android:textColorHint="@color/black"
                 android:visibility="visible"/>
             
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_enter"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
@@ -61,6 +63,7 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/card_view2"
         android:layout_width="300dp"
         android:layout_height="300dp"
         android:visibility="gone"

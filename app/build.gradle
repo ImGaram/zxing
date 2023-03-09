@@ -36,6 +36,9 @@ android {
 }
 
 dependencies {
+    // easy permissions
+    implementation 'pub.devrel:easypermissions:3.0.0'
+
     // zxing
     implementation 'com.journeyapps:zxing-android-embedded:4.2.0'
 
