@@ -17,7 +17,9 @@ class QrCodeActivity3 : AppCompatActivity() {
         binding = ActivityQrCode3Binding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        
+        binding.codeScan.setOnClickListener {
+            startActivity(Intent(this, Scan3Activity::class.java))
+        }
 
         binding.makeCode.setOnClickListener {
             startActivity(Intent(this, MakeCodeActivity::class.java))

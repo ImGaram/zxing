@@ -18,6 +18,9 @@
         android:theme="@style/Theme.QRPractice"
         tools:targetApi="31">
         <activity
+            android:name=".example3.Scan3Activity"
+            android:exported="false" />
+        <activity
             android:name=".example3.MakeCodeActivity"
             android:exported="false" />
         <activity
